@@ -1,0 +1,45 @@
+{
+  "name": "workersweb",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "host": "vite --host"
+  },
+  "dependencies": {
+    "@mapbox/mapbox-sdk": "^0.15.3",
+    "axios": "^1.6.0",
+    "framer-motion": "^10.16.1",
+    "localforage": "^1.10.0",
+    "mapbox-gl": "^2.15.0",
+    "match-sorter": "^6.3.1",
+    "react": "^18.2.0",
+    "react-autosuggest": "^10.1.0",
+    "react-dom": "^18.2.0",
+    "react-draggable": "^4.4.5",
+    "react-geocode": "^1.0.0-alpha.1",
+    "react-icons": "^4.8.0",
+    "react-map-gl": "^7.1.6",
+    "react-router-dom": "^6.10.0",
+    "react-use-gesture": "^9.1.3",
+    "sort-by": "^1.2.0",
+    "websocket": "^1.0.34"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-autosuggest": "^10.1.8",
+    "@types/react-dom": "^18.0.10",
+    "@types/websocket": "^1.0.5",
+    "@vitejs/plugin-react": "^3.1.0",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "prettier": "^2.8.6",
+    "prettier-plugin-tailwindcss": "^0.2.5",
+    "tailwindcss": "^3.2.7",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0"
+  }
+}
